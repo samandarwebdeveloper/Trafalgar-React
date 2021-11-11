@@ -1,0 +1,42 @@
+.services {
+    text-align: center;
+}
+.service-text {
+    max-width: 1200px;
+    margin: auto;
+}
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: black;
+}
+
+.our-services {
+    padding: 20px 0;
+}
+
+.box {
+    text-align: center;
+}
+
+.list-item {
+    width: 280px;
+    height: 300px;
+    vertical-align: top;
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px rgb(159, 159, 172);
+}
+
+.button2 {
+    text-decoration: none;
+    color: teal;
+    border: 1px solid #0376a3;
+    border-radius: 40px;
+    padding: 12px 24px;
+}
