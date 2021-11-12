@@ -13,7 +13,7 @@ function App() {
   const [ lang, setLang] = useState("eng");
   const [ color, setColor] = useState("light");
   return (
-    <div className="container" className={color}>
+    <div className={color}>
     <Header lang={lang} setLang={setLang} color={color} setColor={setColor}/>
     <Hero lang={lang}/>
     <Services lang={lang}/>

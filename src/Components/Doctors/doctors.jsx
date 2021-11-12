@@ -8,7 +8,7 @@ import content from "../../content"
 function Doctors({ lang }) {
 return (
 <>
-    <div>
+    <div className="container">
         <h1 className="skin">{content[lang].doctors.lead}</h1>
         <h2 className="skin">______</h2>
         <div className="skincare">
