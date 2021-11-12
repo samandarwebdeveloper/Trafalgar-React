@@ -179,7 +179,7 @@ const content = {
     },
     uz: {
         navbar: {
-            home: "Uy",
+            home: "Bosh sahifa",
             findDoctor: "Shifokor izlash",
             apps: "Ilovalar",
             testimonials: "Guvohlar",

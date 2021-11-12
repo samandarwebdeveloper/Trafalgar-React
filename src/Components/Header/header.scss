@@ -5,22 +5,24 @@
     justify-content: space-around;
 }
 
-.navbar-items {
+.navbar-list {
     list-style-type: none;
     font-size: 18px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
 }
 
-.nav-list-active {
+.nav-link-active {
     text-decoration: none;
     color: rgb(115, 108, 146);
 
 }
 
-.nav-list {
+.nav-link {
     color: rgb(183, 194, 194);
     text-decoration: none;
     font-weight: 100px;
-    margin-left: 20px;
 }
 .header-left {
     display: inline-block;
@@ -37,9 +39,9 @@
     align-items: center;
 }
 
-.items {
+.navbar-items {
     display: inline-block;
-
+    margin-left: 10px;
 }
 select {
     margin: 2px;
@@ -49,6 +51,6 @@ select {
     color: #000;
 }
 .dark {
-    background-color: rgb(61, 62, 73);
+    background-color: rgb(78, 80, 107);
     color: #fff;
 }

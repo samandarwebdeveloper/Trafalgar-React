@@ -24,12 +24,12 @@ function Header({ lang, setLang, color, setColor }) {
                         <option value="ru">RU</option>
                         <option value="uz">UZ</option>
                     </select>
-                    <ul className="navbar-items">
-                        <li className="items"><a className={"nav-list-active"} href="/">{content[lang].navbar.home}</a></li>
-                        <li className="items"><a className={"nav-list"} href="/">{content[lang].navbar.findDoctor}</a></li>
-                        <li className="items"><a className={"nav-list"} href="/">{content[lang].navbar.apps}</a></li>
-                        <li className="items"><a className={"nav-list"} href="/">{content[lang].navbar.testimonials}</a></li>
-                        <li className="items"><a className={"nav-list"} href="/">{content[lang].navbar.aboutUs}</a></li>
+                    <ul className="navbar-list">
+                        <li className="navbar-items"><a className={"nav-link-active"} href="/">{content[lang].navbar.home}</a></li>
+                        <li className="navbar-items"><a className={"nav-link"} href="/">{content[lang].navbar.findDoctor}</a></li>
+                        <li className="navbar-items"><a className={"nav-link"} href="/">{content[lang].navbar.apps}</a></li>
+                        <li className="navbar-items"><a className={"nav-link"} href="/">{content[lang].navbar.testimonials}</a></li>
+                        <li className="navbar-items"><a className={"nav-link"} href="/">{content[lang].navbar.aboutUs}</a></li>
                     </ul>
                 </div>
             </div>
